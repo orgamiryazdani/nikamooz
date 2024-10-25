@@ -1,0 +1,39 @@
+@import url("../public/fonts/font.css");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Vazir";
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --color-primary: #e6e6e6;
+  --color-primary-content: #ffffff;
+  --color-secondary: #242424;
+  --color-secondary-content: #ffff;
+  --color-info: #3abff8;
+  --color-info-content: #ffff;
+  --color-accent: #1fb2a5;
+  --color-accent-content: #ffffff;
+  --color-success: #36d399;
+  --color-success-content: #ffffff;
+  --color-warning: #fbbd23;
+  --color-warning-content: #ffffff;
+  --color-error: #f87272;
+  --color-error-content: #ffffff;
+}
+
+a {
+  color: black;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

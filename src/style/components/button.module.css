@@ -1,0 +1,60 @@
+.btn {
+  text-decoration: none;
+  gap: 0.5rem;
+  height: 2.7rem;
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+.loading{
+  pointer-events: none;
+  opacity: 80;
+}
+
+/* Primary Button */
+.primary {
+  background-color: var(--color-primary);
+  color: var(--color-primary-content);
+}
+
+/* Secondary Button */
+.secondary {
+  border-color: var(--color-secondary);
+  background-color: var(--color-secondary);
+  color: var(--color-secondary-content);
+}
+
+/* Accent Button */
+.accent {
+  background-color: var(--color-accent);
+  color: var(--color-accent-content);
+}
+
+/* Info Button */
+.info {
+  background-color: var(--color-info);
+  color: var(--color-info-content);
+}
+
+/* Success Button */
+.success {
+  background-color: var(--color-success);
+  color: var(--color-success-content);
+}
+
+/* Warning Button */
+.warning {
+  background-color: var(--color-warning);
+  color: var(--color-warning-content);
+}
+
+/* Error Button */
+.error {
+  background-color: var(--color-error);
+  color: var(--color-error-content);
+}

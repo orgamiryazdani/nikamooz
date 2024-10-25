@@ -1,0 +1,79 @@
+.textbox {
+  height: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 0.875rem;
+  line-height: 1.75rem;
+  flex-shrink: 1;
+  border: 1px solid;
+  background-color: transparent;
+  border-radius: 0.5rem;
+  color: inherit;
+  opacity: 0.5;
+  width: 100%;
+}
+
+label {
+  font-size: 15px;
+}
+
+.focus {
+  outline: 2px solid;
+  outline-offset: 2px;
+}
+
+.primary {
+  border-color: var(--color-primary);
+}
+
+.primary:focus {
+  outline: 2px solid var(--color-primary);
+}
+
+.secondary {
+  border-color: var(--color-secondary);
+}
+
+.secondary:focus {
+  outline: 2px solid var(--color-secondary);
+}
+
+.accent {
+  border-color: var(--color-accent);
+}
+
+.accent:focus {
+  outline: 2px solid var(--color-accent);
+}
+
+.info {
+  border-color: var(--color-info);
+}
+
+.info:focus {
+  outline: 2px solid var(--color-info);
+}
+
+.success {
+  border-color: var(--color-success);
+}
+
+.success:focus {
+  outline: 2px solid var(--color-success);
+}
+
+.warning {
+  border-color: var(--color-warning);
+}
+
+.warning:focus {
+  outline: 2px solid var(--color-warning);
+}
+
+.error {
+  border-color: var(--color-error);
+}
+
+.error:focus {
+  outline: 2px solid var(--color-error);
+}

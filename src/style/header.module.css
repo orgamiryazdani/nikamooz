@@ -1,0 +1,20 @@
+.header {
+  position: fixed;
+  width: 100svw;
+  height: 10svh;
+  max-height: 70px;
+  gap: 50px;
+  background-color: var(--color-secondary);
+}
+
+a {
+  color: var(--color-primary);
+}
+
+a:hover {
+  color: var(--color-info);
+}
+
+.activeLink {
+  color: var(--color-info);
+}

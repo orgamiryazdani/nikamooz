@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
-import style from "../style/Header.module.css";
-import CreatePostForm from "../components/post-components/create-post-form/create-post-form";
+import style from "../style/header.module.css";
+import { CreatePostForm } from "../components/post-components/create-post-form";
 
 const Header = () => {
   return (

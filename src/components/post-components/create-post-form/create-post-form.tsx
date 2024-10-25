@@ -15,7 +15,7 @@ const validationSchema = Yup.object({
   body: Yup.string().min(10, "حداقل 10 حرف").required("لطفا مقداری وارد کنید"),
 });
 
-const CreatePostForm: React.FC = () => {
+export const CreatePostForm: React.FC = () => {
   const [isModalOpen, setModalOpen] = useState<boolean>(false);
   const dispatch = useDispatch();
   const { mutateAsync, isPending } = useCreatePost();
@@ -84,5 +84,3 @@ const CreatePostForm: React.FC = () => {
     </>
   );
 };
-
-export default CreatePostForm;
